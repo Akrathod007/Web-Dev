@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  background-color: chartreuse;
+  height: 203px;
+  border: 2px solid black;
+  padding: 20px;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  /* margin: 2px; */
+  border: 2px solid black;
+  background-color: salmon;
+  animation-name: super-anime;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  /* animation-direction: alternate; */
+  animation-fill-mode: both;
+}
+@keyframes super-anime {
+  from {
+    /* width: 200px; */
+    background-color: salmon;
+  }
+  to {
+    transform: translateX(200px) rotate(360deg);
+    /* width: 700px; */
+    background-color: aqua;
+  }
+}

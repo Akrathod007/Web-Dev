@@ -1,0 +1,19 @@
+/* :root {
+  --phusiya: #f705e7;
+} */
+* {
+  --red: #ff0000;
+}
+.container {
+  border: 1px solid black;
+  background-color: var(--red);
+  height: 400px;
+  width: 300px;
+}
+.box {
+  border: 1px solid green;
+  background-color: aqua;
+  /* color: orange; */
+  /* color: var(--phusiya); */
+  color: #ff0000;
+}

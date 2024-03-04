@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advance Grid</title>
+    <style>
+      .container {
+        height: 700px;
+        border: 1px solid black;
+        background-color: aqua;
+        display: grid;
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        /* grid-template-rows: repeat(2, 1fr); */
+        grid-template-columns: 200px;
+        /* grid-auto-columns: minmax(200px, auto); */
+
+        /* grid-auto-columns: fit-content(500px); */
+      }
+      .box {
+        border: 1px solid green;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" id="Header">Header</div>
+      <div class="box" id="Sidebar">Sidebar</div>
+      <div class="box" id="Main">Main</div>
+      <div class="box" id="Footer">Footer</div>
+      <div class="box" id="Header">Header</div>
+      <div class="box" id="Sidebar">Sidebar</div>
+      <div class="box" id="Main">Main</div>
+      <div class="box" id="Footer">Footer</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+/* p {
+  position: static;
+} */
+.wrapper {
+  width: 100vw;
+  height: 2000px;
+  background-color: white;
+}
+div {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: peru;
+  border: 1px solid black;
+}
+#box1 {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+#box2 {
+  position: relative;
+  top: 100px;
+}
+#box3 {
+  /* position: relative;
+  top: 50px;
+  right: 50px; */
+  position: absolute;
+  top: 140px;
+}
+#box4 {
+  /* position: relative;
+  top: 100px;
+  right: 100px; */
+  position: sticky;
+  top: 0px;
+}
+#box5 {
+  position: fixed;
+  top: 30px;
+  right: 100px;
+}

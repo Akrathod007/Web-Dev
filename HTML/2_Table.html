@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      /* aside {
+        width: 40%;
+        float: right;
+        background-color: aqua;
+      } */
+    </style>
+  </head>
+  <body>
+    <h2>Table 1</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Ansh</td>
+        <td>19</td>
+      </tr>
+      <tr>
+        <td>Raj</td>
+        <td>24</td>
+      </tr>
+      <tr>
+        <td>Rohan</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>Jay</td>
+        <td>22</td>
+      </tr>
+    </table>
+
+    <h2>Table 2</h2>
+
+    <table>
+      <caption>
+        Title
+      </caption>
+      <tr>
+        <td colspan="2">ABCD</td>
+        <!-- <td>EFGH</td> -->
+        <td>IJKL</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td rowspan="3">E</td>
+        <td>I</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <!-- <td>E</td> -->
+        <td>I</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <!-- <td>E</td> -->
+        <td>I</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td rowspan="2" colspan="2">E</td>
+        <!-- <td>I</td> -->
+      </tr>
+      <tr>
+        <td>A</td>
+        <!-- <td>E</td> -->
+        <!-- <td>I</td> -->
+      </tr>
+    </table>
+    <!-- <div>
+      <aside>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nemo
+          reiciendis explicabo, recusandae similique voluptatum veritatis
+          deleniti iure dolor hic?
+        </p>
+      </aside>
+    </div> -->
+
+    <h2>Table 3</h2>
+    <table>
+      <tr>
+        <td rowspan="2">state of Health</td>
+        <td colspan="2">Fasting Value</td>
+        <!-- <td></td> -->
+        <td>After Eating</td>
+      </tr>
+      <tr>
+        <!-- <td></td> -->
+        <td>Minimum</td>
+        <td>Maximum</td>
+        <td>2 Hours after eating</td>
+      </tr>
+      <tr>
+        <td>Healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>Less than 140</td>
+      </tr>
+      <tr>
+        <td>Pre-Diabetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td>140 to 200</td>
+      </tr>
+      <tr>
+        <td>Diabetes</td>
+        <td>More than 126</td>
+        <td>N/A</td>
+        <td>More than 200</td>
+      </tr>
+    </table>
+
+    <h2>Table 4</h2>
+
+    <table>
+      <colgroup>
+        <!-- First -->
+        <!-- <col span="3" style="background-color: mediumpurple" /> -->
+        <!-- second -->
+        <!-- <col span="1" /> -->
+        <!-- <col span="3" style="background-color: gold" /> -->
+        <!-- Third -->
+        <col span="1" />
+        <col span="1" style="background-color: tomato" />
+        <col span="1" />
+        <col span="1" style="background-color: tomato" />
+        <col span="1" style="visibility: collapse" />
+      </colgroup>
+      <thead>
+        <tr>
+          <td>Col 1</td>
+          <td>Col 2</td>
+          <td>Col 3</td>
+          <td>Col 4</td>
+          <td>Col 5</td>
+        </tr>
+      </thead>
+      <tr>
+        <td>Col 1</td>
+        <td>Col 2</td>
+        <td>Col 3</td>
+        <td>Col 4</td>
+        <td>Col 5</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>B</td>
+        <td>C</td>
+        <td>D</td>
+        <td>E</td>
+      </tr>
+      <tr>
+        <td>F</td>
+        <td>G</td>
+        <td>H</td>
+        <td>I</td>
+        <td>J</td>
+      </tr>
+      <tr>
+        <td>K</td>
+        <td>L</td>
+        <td>M</td>
+        <td>N</td>
+        <td>O</td>
+      </tr>
+      <tr>
+        <td>P</td>
+        <td>Q</td>
+        <td>R</td>
+        <td>S</td>
+        <td>T</td>
+      </tr>
+    </table>
+  </body>
+</html>

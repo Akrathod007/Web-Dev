@@ -1,0 +1,37 @@
+.box {
+  border: 1px solid black;
+  height: 300px;
+  width: 250px;
+  background-image: linear-gradient(yellow, pink);
+  background-image: linear-gradient(to right, yellow, pink);
+  background-image: linear-gradient(to left, yellow, pink);
+  background-image: linear-gradient(to top, yellow, pink);
+  background-image: linear-gradient(to bottom left, yellow, pink);
+  background-image: linear-gradient(to bottom right, yellow, pink);
+  background-image: linear-gradient(to top right, yellow, pink);
+  background-image: linear-gradient(to top left, yellow, pink, orange);
+  background-image: linear-gradient(210deg, yellow, pink);
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 0, 0, 1),
+    rgba(0, 255, 0, 1),
+    rgba(0, 0, 255, 0)
+  );
+}
+.div2 {
+  border: 1px solid black;
+  height: 300px;
+  width: 200px;
+  margin-top: 10px;
+
+  background-image: radial-gradient(gold, navy, pink, green);
+  background-image: radial-gradient(circle, pink, purple, orange);
+  background-image: radial-gradient(black 20%, pink 30%, black 40%, pink 60%);
+}
+.india {
+  border: 1px solid black;
+  width: 400px;
+  height: 300px;
+  margin-top: 10px;
+  background-image: linear-gradient(orange, white, green);
+}

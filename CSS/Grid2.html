@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        height: 600px;
+        background-color: paleturquoise;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        border: 3px solid black;
+        /* justify-content: center; */
+      }
+      .box {
+        height: 100px;
+        width: 100px;
+        background-color: palegreen;
+        border: 2px solid black;
+      }
+      #box1 {
+        align-self: center;
+        justify-self: center;
+      }
+      #box2 {
+        justify-self: center;
+        align-self: self-end;
+      }
+      #box3 {
+        justify-self: center;
+        align-self: self-start;
+      }
+      #box4 {
+        justify-self: self-end;
+        align-self: self-start;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" id="box1">Box 1</div>
+      <div class="box" id="box2">Box 2</div>
+      <div class="box" id="box3">Box 3</div>
+      <div class="box" id="box4">Box 4</div>
+    </div>
+  </body>
+</html>
